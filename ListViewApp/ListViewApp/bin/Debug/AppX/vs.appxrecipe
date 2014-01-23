@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NAI-BRIANAP</Machine>
+    <WindowsUser>v-vibaza</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>7293e3f3-b011-4db6-8990-7434fce9cad0</PackageIdentityName>
+    <RegisteredManifestChecksum>F517A25D64D476C9B17FDDA581E0A4BB1855B5080359B57B927C9F2D293ABF80</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>7293e3f3-b011-4db6-8990-7434fce9cad0_1.0.0.0_neutral__xr3fsqpptj66c</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>7293e3f3-b011-4db6-8990-7434fce9cad0_xr3fsqpptj66c!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>7293e3f3-b011-4db6-8990-7434fce9cad0</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=v-vibaza</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\ListViewApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-23T21:32:25.300</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\ListViewApp\bin\Debug\ListViewApp.exe">
+      <PackagePath>ListViewApp.exe</PackagePath>
+      <Modified>2014-01-23T22:13:12.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\packages\Microsoft.Bcl.Async.1.0.16\lib\win8\Microsoft.Threading.Tasks.dll">
+      <PackagePath>Microsoft.Threading.Tasks.dll</PackagePath>
+      <Modified>2014-01-23T17:28:53.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\packages\Microsoft.Bcl.Async.1.0.16\lib\win8\Microsoft.Threading.Tasks.Extensions.dll">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
+      <Modified>2014-01-23T17:28:53.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\packages\WindowsAzure.MobileServices.1.0.2\lib\netcore45\Microsoft.WindowsAzure.Mobile.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.dll</PackagePath>
+      <Modified>2014-01-23T17:28:58.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\packages\WindowsAzure.MobileServices.1.0.2\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
+      <Modified>2014-01-23T17:28:58.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\packages\Newtonsoft.Json.5.0.5\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-01-23T17:28:50.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\packages\Microsoft.Net.Http.2.2.13\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2014-01-23T17:28:58.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\packages\Microsoft.Net.Http.2.2.13\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2014-01-23T17:28:58.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\ListViewApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\ListViewApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\ListViewApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\ListViewApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\ListViewApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-01-23T16:22:01.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\ListViewApp\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-01-23T21:26:23.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-vibaza\Documents\Visual Studio 2013\Projects\ListViewApp\ListViewApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-01-23T22:13:12.796</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

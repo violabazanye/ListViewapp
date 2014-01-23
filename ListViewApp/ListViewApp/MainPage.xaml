@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="ListViewApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ListViewApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0">
+        <TextBlock Margin="120,120,0,0" TextWrapping="Wrap" Text="ListViewApp" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}"/>
+        <Grid x:Name="input" Margin="120,230,846,271">
+            <TextBox x:Name="title_input" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" PlaceholderText="Enter title"/>
+            <TextBox x:Name="desc_input" HorizontalAlignment="Left" Margin="0,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" PlaceholderText="Enter description" Height="190"/>
+            <Button x:Name="submit" Content="SUBMIT" HorizontalAlignment="Left" Margin="315,229,-3,-40" VerticalAlignment="Top" Click="SubmitBtn_Clicked"/>
+
+        </Grid>
+        <Grid x:Name="output" HorizontalAlignment="Left" Margin="650,230,0,0" VerticalAlignment="Top" Width="707" Height="528">
+            <TextBlock HorizontalAlignment="Left" Margin="10,-15,0,0" TextWrapping="Wrap" Text="Output:" VerticalAlignment="Top" Style="{StaticResource SubheaderTextBlockStyle}"/>
+            <ListView x:Name="Content" Height="498" Margin="10,20,10,0" VerticalAlignment="Top" Width="687" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Name="title_output" Text="{Binding Title}" VerticalAlignment="Center" Style="{StaticResource BodyTextBlockStyle}" Margin="10,0,0,0" Width="Auto"></TextBlock>
+                            <TextBlock Name="desc_output" Text="{Binding Description}" Grid.Column="1" VerticalAlignment="Center" Style="{StaticResource BodyTextBlockStyle}" Margin="10,0,0,0" Width="Auto"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+
+    </Grid>
+</Page>
